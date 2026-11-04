@@ -11,7 +11,7 @@
 <meta property="og:title" content="Alert ticket: phishing email with a malicious attachment | Ferdinando Gregorio Fernandez">
 <meta property="og:description" content="Evaluating a phishing alert following a playbook, spotting the red flags, checking the file hash and escalating the ticket to level two.">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../assets/style.css?v=53640808">
+<link rel="stylesheet" href="../assets/style.css?v=e0391ff4">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -38,7 +38,7 @@
 <div class="tablewrap"><table><tr><td class="label"><p>Sender</p></td><td><p>Def Communications, 76tguyhh6tgftrt7tg.su (114.114.114.114)</p></td></tr><tr><td class="label"><p>Recipient</p></td><td><p>hr@inergy.com (176.157.125.93)</p></td></tr><tr><td class="label"><p>Sent</p></td><td><p>Wednesday, July 20, 2022, 09:30:14 AM</p></td></tr><tr><td class="label"><p>Subject</p></td><td><p>Re: Infrastructure Egnieer role</p></td></tr><tr><td class="label"><p>Attachment</p></td><td><p>bfsvc.exe</p></td></tr><tr><td class="label"><p>File hash (SHA-256)</p></td><td><p>54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b</p></td></tr><tr><td class="label"><p>Note</p></td><td><p>The email body contains the password for the attachment. I left it out of this document on purpose.</p></td></tr></table></div>
 <h2>How I followed the phishing playbook</h2>
 <div class="tablewrap"><table><tr><th><p>Playbook step</p></th><th><p>What I did</p></th><th><p>Result</p></th></tr><tr><td><p>2. Evaluate the alert</p></td><td><p>Read the severity, the sender and receiver details, the subject line and the body. I did not open anything on my own device.</p></td><td><p>Several red flags, listed in the ticket comments</p></td></tr><tr><td><p>3.0 Links or attachments?</p></td><td><p>Looked at what came with the email.</p></td><td><p>One executable attachment, no links</p></td></tr><tr><td><p>3.1 Malicious?</p></td><td><p>Checked the file hash with a threat intelligence tool.</p></td><td><p>Known malicious file</p></td></tr><tr><td><p>3.2 Update and escalate</p></td><td><p>Wrote a summary of the findings, set the status to Escalated and passed it to level two.</p></td><td><p>Done</p></td></tr><tr><td><p>4. Close the ticket</p></td><td><p>Does not apply, because the attachment is malicious.</p></td><td><p>Ticket stays open</p></td></tr></table></div>
-<nav class="pager" aria-label="Case studies"><a class="prev" href="tcpdump-vs-wireshark.html"><small>&larr; Previous</small>tcpdump and Wireshark compared</a><a class="next" href="pyramid-of-pain.html"><small>Next &rarr;</small>File hash analysis with the Pyramid of Pain</a></nav>
+<nav class="pager" aria-label="Case studies"><a class="prev" href="http-malware-incident.html"><small>&larr; Previous</small>Security incident report: malware via a hijacked website</a><a class="next" href="pyramid-of-pain.html"><small>Next &rarr;</small>File hash analysis with the Pyramid of Pain</a></nav>
 </article>
 </div>
 </main>
@@ -46,6 +46,6 @@
 <div><p class="foot-name">Ferdinando Gregorio Fernandez</p><p>Personal portfolio. The cybersecurity case studies are educational and based on simulated scenarios from the Google Cybersecurity Certificate: no live systems were tested and no real data is used.</p><p>They are not a formal attestation, certification or legal assessment of compliance.</p></div>
 <ul class="foot-links"><li><a href="https://github.com/Ferdinando980" rel="noopener noreferrer">GitHub</a></li><li><a href="https://www.linkedin.com/in/ferdinando-gregorio-fernandez-986b83315" rel="noopener noreferrer">LinkedIn</a></li></ul>
 </div></footer>
-<script src="../assets/site.js?v=53640808" defer></script>
+<script src="../assets/site.js?v=e0391ff4" defer></script>
 </body>
 </html>

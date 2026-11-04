@@ -11,7 +11,7 @@
 <meta property="og:title" content="Ticket di allerta: email di phishing con allegato dannoso | Ferdinando Gregorio Fernandez">
 <meta property="og:description" content="Valutazione di un&#x27;allerta di phishing seguendo un playbook, individuazione dei segnali sospetti, controllo dell&#x27;hash del file ed escalation al secondo livello.">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../assets/style.css?v=53640808">
+<link rel="stylesheet" href="../assets/style.css?v=e0391ff4">
 </head>
 <body>
 <a class="skip" href="#main">Vai al contenuto</a>
@@ -38,7 +38,7 @@
 <div class="tablewrap"><table><tr><td class="label"><p>Mittente</p></td><td><p>Def Communications, 76tguyhh6tgftrt7tg.su (114.114.114.114)</p></td></tr><tr><td class="label"><p>Destinatario</p></td><td><p>hr@inergy.com (176.157.125.93)</p></td></tr><tr><td class="label"><p>Inviata</p></td><td><p>Mercoledì 20 luglio 2022, 09:30:14</p></td></tr><tr><td class="label"><p>Oggetto</p></td><td><p>Re: Infrastructure Egnieer role</p></td></tr><tr><td class="label"><p>Allegato</p></td><td><p>bfsvc.exe</p></td></tr><tr><td class="label"><p>Hash del file (SHA-256)</p></td><td><p>54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b</p></td></tr><tr><td class="label"><p>Nota</p></td><td><p>Il testo dell&#x27;email contiene la password dell&#x27;allegato. L&#x27;ho lasciata fuori da questo documento di proposito.</p></td></tr></table></div>
 <h2>Come ho seguito il playbook sul phishing</h2>
 <div class="tablewrap"><table><tr><th><p>Passo del playbook</p></th><th><p>Cosa ho fatto</p></th><th><p>Esito</p></th></tr><tr><td><p>2. Valutare l&#x27;allerta</p></td><td><p>Ho letto la gravità, i dati di mittente e destinatario, l&#x27;oggetto e il testo. Non ho aperto nulla sul mio dispositivo.</p></td><td><p>Diversi segnali sospetti, elencati nei commenti al ticket</p></td></tr><tr><td><p>3.0 Link o allegati?</p></td><td><p>Ho guardato cosa accompagnava l&#x27;email.</p></td><td><p>Un allegato eseguibile, nessun link</p></td></tr><tr><td><p>3.1 Sono dannosi?</p></td><td><p>Ho controllato l&#x27;hash del file con uno strumento di threat intelligence.</p></td><td><p>File dannoso già noto</p></td></tr><tr><td><p>3.2 Aggiornare ed escalare</p></td><td><p>Ho scritto un riepilogo dei risultati, messo lo stato su Escalation e passato il ticket al secondo livello.</p></td><td><p>Fatto</p></td></tr><tr><td><p>4. Chiudere il ticket</p></td><td><p>Non si applica, perché l&#x27;allegato è dannoso.</p></td><td><p>Il ticket resta aperto</p></td></tr></table></div>
-<nav class="pager" aria-label="Case studies"><a class="prev" href="tcpdump-vs-wireshark.html"><small>&larr; Precedente</small>tcpdump e Wireshark a confronto</a><a class="next" href="pyramid-of-pain.html"><small>Successivo &rarr;</small>Analisi di un hash di file con la Piramide del dolore</a></nav>
+<nav class="pager" aria-label="Case studies"><a class="prev" href="http-malware-incident.html"><small>&larr; Precedente</small>Rapporto di sicurezza: malware da un sito compromesso</a><a class="next" href="pyramid-of-pain.html"><small>Successivo &rarr;</small>Analisi di un hash di file con la Piramide del dolore</a></nav>
 </article>
 </div>
 </main>
@@ -46,6 +46,6 @@
 <div><p class="foot-name">Ferdinando Gregorio Fernandez</p><p>Portfolio personale. I case study di cybersecurity sono didattici e basati su scenari simulati del Google Cybersecurity Certificate: non sono stati testati sistemi reali e non si usano dati reali.</p><p>Non costituiscono un&#x27;attestazione formale, una certificazione né una valutazione legale di conformità.</p></div>
 <ul class="foot-links"><li><a href="https://github.com/Ferdinando980" rel="noopener noreferrer">GitHub</a></li><li><a href="https://www.linkedin.com/in/ferdinando-gregorio-fernandez-986b83315" rel="noopener noreferrer">LinkedIn</a></li></ul>
 </div></footer>
-<script src="../assets/site.js?v=53640808" defer></script>
+<script src="../assets/site.js?v=e0391ff4" defer></script>
 </body>
 </html>

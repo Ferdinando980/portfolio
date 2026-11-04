@@ -510,13 +510,6 @@
                   "en": "DNS and ICMP"
                 },
                 "href": "dns-icmp-traffic.html"
-              },
-              {
-                "label": {
-                  "it": "tcpdump e Wireshark",
-                  "en": "tcpdump and Wireshark"
-                },
-                "href": "tcpdump-vs-wireshark.html"
               }
             ]
           },
